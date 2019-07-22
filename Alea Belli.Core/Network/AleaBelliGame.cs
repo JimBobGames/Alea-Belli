@@ -15,6 +15,7 @@ namespace Alea_Belli.Core.Network
         List<Regiment> AllRegiments { get; }
 
         void AddRegiment(Regiment r);
+        void AddNation(Nation n);
     }
 
     /// <summary>
@@ -30,7 +31,17 @@ namespace Alea_Belli.Core.Network
     /// </summary>
     public abstract class AleaBelliGame : IAleaBelliGame
     {
+        private Dictionary<int, Nation> nations = new Dictionary<int, Nation>();
+
         private Dictionary<int, Regiment> regiments = new Dictionary<int, Regiment>();
+
+        internal Dictionary<int, Nation> Nations
+        {
+            get
+            {
+                return nations;
+            }
+        }
 
         internal Dictionary<int, Regiment> Regiments
         {
@@ -38,6 +49,11 @@ namespace Alea_Belli.Core.Network
             {
                 return regiments;
             }
+        }
+
+        public void AddNation(Nation n)
+        {
+            nations[n.NationId] = n;
         }
 
         public void AddRegiment(Regiment r)
@@ -51,6 +67,14 @@ namespace Alea_Belli.Core.Network
             get
             {
                 return regiments.Values.ToList<Regiment>();
+            }
+        }
+
+        public List<Nation> AllNations
+        {
+            get
+            {
+                return nations.Values.ToList<Nation>();
             }
         }
     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alea Belli", "Alea Belli\Al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alea Belli.Core", "Alea Belli.Core\Alea Belli.Core.csproj", "{36EF5FB7-1F3B-4B65-8347-BB7E4F6A7B19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alea-Belli.Test", "Alea-Belli.Test\Alea-Belli.Test.csproj", "{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,14 @@ Global
 		{36EF5FB7-1F3B-4B65-8347-BB7E4F6A7B19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36EF5FB7-1F3B-4B65-8347-BB7E4F6A7B19}.Release|x86.ActiveCfg = Release|Any CPU
 		{36EF5FB7-1F3B-4B65-8347-BB7E4F6A7B19}.Release|x86.Build.0 = Release|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E66A65B-DC5B-4332-AC15-7A0AE2709B9A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

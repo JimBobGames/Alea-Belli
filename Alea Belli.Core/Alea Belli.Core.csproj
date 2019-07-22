@@ -55,10 +55,15 @@
     <Compile Include="Objects\Regiment.cs" />
     <Compile Include="Orders\AbstractOrder.cs" />
     <Compile Include="Orders\RenameOrder.cs" />
+    <Compile Include="Persistence\BasePersistence.cs" />
+    <Compile Include="Persistence\ReferenceDataPersistence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reference\nations.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
